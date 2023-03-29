@@ -10,7 +10,7 @@ jobs:
         with:
           node-version: '12'
       - name: Publish
-        uses: elgohr/Publish-Docker-Github-Action@master
+        uses: elgohr/Publish-Docker-Github-Action@v5
         with:
           name: fonoster/certshelper
           username: ${{ secrets.DOCKER_HUB_USERNAME }}
